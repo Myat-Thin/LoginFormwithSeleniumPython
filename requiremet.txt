@@ -1,0 +1,13 @@
+#for Linux
+sudo apt update
+sudo apt install python3 (python installation) //3.10.12
+python --version (to check python version)
+sudo apt install python3-pip (pip installation)
+pip3 --version (to check pip version)    
+pip install selenium=4.0.0.b4 (selenium webdriver installation)
+pip show selenium (to check selenium version)
+pip install pytest (testing framework installation)
+
+#for mac and window
+-to install python 3.10.12
+-to install selenium4
