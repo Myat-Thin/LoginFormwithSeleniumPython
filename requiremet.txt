@@ -22,3 +22,12 @@ pip show selenium (to check selenium version)
 pip install pytest (testing framework installation)
 pip install webdriver-manager
 
+#for mac
+python3 --version (to check python version)
+pip --version (to check pip version) 
+pip install selenium==4.0.0.b4 (selenium webdriver installation)
+pip show selenium (to check selenium version)
+pip install pytest (testing framework installation)
+pip install webdriver-manager
+
+
