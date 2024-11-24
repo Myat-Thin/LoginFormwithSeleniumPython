@@ -62,7 +62,7 @@ class WebTestClass(unittest.TestCase):
         logout = wait.until(EC.presence_of_element_located((By.XPATH,data["LogoutPath"])))
         logout.click()
 
-        time.sleep(5)  
+        time.sleep(5)   
 
     #Invalid Case(both username and password are incorrect)
     def test_invalidloginForm1(self):
@@ -78,7 +78,7 @@ class WebTestClass(unittest.TestCase):
         login = wait.until(EC.presence_of_element_located((By.XPATH,data["LoginPath"])))
         login.click()
 
-        time.sleep(5)  
+        time.sleep(5)   
 
     #Invalid Case(incorrect username and correct password)
     def test_invalidloginForm2(self):
@@ -94,7 +94,7 @@ class WebTestClass(unittest.TestCase):
         login = wait.until(EC.presence_of_element_located((By.XPATH,data["LoginPath"])))
         login.click()
 
-        time.sleep(5)  
+        time.sleep(5)   
                 
     #Invalid Case(correct username and incorrect password)
     def test_invalidloginForm3(self):
@@ -110,7 +110,7 @@ class WebTestClass(unittest.TestCase):
         login = wait.until(EC.presence_of_element_located((By.XPATH,data["LoginPath"])))
         login.click()
 
-        time.sleep(5)           
+        time.sleep(5)            
           
 
     @classmethod
