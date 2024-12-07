@@ -38,7 +38,7 @@ def driver():
 
      
 def test_username_field(driver):   
-
+    driver.maximize_window()
     driver.get(data["LoginURL"])
 
     wait = WebDriverWait(driver, 10)      
